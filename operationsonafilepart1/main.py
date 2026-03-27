@@ -1,0 +1,12 @@
+file = open("ironman.txt","r")
+print(file.read())
+file.close()
+
+file = open("ironman.txt","r")
+print("\n Read in parts /n")
+print(file.read(8))
+file.close()
+
+file = open("ironman.txt","r")
+file.write("Hi I am a Penguin and I am 1 year old")
+file.close()
